@@ -24,3 +24,21 @@ console.log(++sayi1)
 
 console.log("Sayı 2:" +sayi2);
 console.log(++sayi2);
+
+let sayi3= 100;
+let sayi4= 80;
+sayi3*= sayi4
+console.log(sayi3);
+console.log(sayi4 > sayi3);
+
+let yas5=22;
+let metinselYas='22';
+console.log(yas5==metinselYas);
+console.log(yas5===metinselYas);
+console.log(yas5!==metinselYas);
+
+//ve, veya öğrenimi
+console.log( sayi3 > 70 &&  sayi4 < 90 );
+console.log(sayi1>30 && sayi2<40);
+console.log(sayi3>70 || sayi4<50);
+console.log(sayi1>30 || sayi2<3);
