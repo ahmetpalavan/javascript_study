@@ -17,6 +17,6 @@ if(a>b) {
     }
     console.log("c değeri:" +c);
     
-    //ternary operatör
+    //ternary kısa if operatör
     c=(a<b) ? (a+b) : (a-b);
     console.log("c'nin yeni değeri:"+c);
