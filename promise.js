@@ -56,6 +56,10 @@ const b = new Promise((resolve, reject)=>{
 //     .then((data)=>{console.log(data);})
 //     .catch((err)=>{console.log(err);})
 
-Promise.race([a,b])
+// Promise.race([a,b])
+//     .then((data)=>{console.log(data);})
+//     .catch((err)=>{console.log(err);}) 
+
+Promise.reject("Hata")
     .then((data)=>{console.log(data);})
-    .catch((err)=>{console.log(err);}) 
+    .catch((err)=>{console.log(err);})
